@@ -8,7 +8,10 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/drawable/ic_baseline_menu_open_24.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_add_book2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_add_book3.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_add_borrower.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_edit_book.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_issue_item.xml" value="0.253125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_lend_book.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_lend_magazine.xml" value="0.253125" />

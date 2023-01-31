@@ -34,20 +34,23 @@
         <Button
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="41dp"
-            android:text="Add Book" />
+            android:layout_height="wrap_content"
+            android:text="Add Book"
+            app:backgroundTint="#152AA3" />
 
         <Button
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="54dp"
-            android:text="Remove Book" />
+            android:text="Remove Book"
+            app:backgroundTint="#9C27B0" />
 
         <Button
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Update Book" />
+            android:text="Update Book"
+            app:backgroundTint="#CFBC15" />
     </LinearLayout>
 
 
