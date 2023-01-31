@@ -1,4 +1,4 @@
-package com.example.vialibrary;
+package com.example.vialibrary.entity;
 
 public class Borrower {
    private String name, email,role;
