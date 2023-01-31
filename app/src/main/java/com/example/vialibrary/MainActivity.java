@@ -2,7 +2,6 @@ package com.example.vialibrary;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +9,6 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.vialibrary.entity.Borrower;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -20,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
     EditText phone;
     Spinner role;
     Button submit;
-    Button addBook;
     DatabaseReference borrowerRef;
 
 
@@ -29,25 +26,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        addBook=findViewById(R.id.addBook);
-
-        name=findViewById(R.id.name);
-        email=findViewById(R.id.email);
-        phone=findViewById(R.id.phone);
-        role=findViewById(R.id.role);
-        submit=findViewById(R.id.submit);
 
         borrowerRef= FirebaseDatabase.getInstance().getReference().child("Borrower");
-
-
-        addBook.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, AddBookActivity.class);
-                startActivity(intent);
-
-            }
-        });
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

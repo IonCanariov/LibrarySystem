@@ -7,10 +7,10 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="183dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="36dp"
-        android:text="Manage Book"
+        android:layout_width="240dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="56dp"
+        android:text="Manage Borrower"
         android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,37 +18,40 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="181dp"
+        android:layout_width="403dp"
+        android:layout_height="310dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.166">
+        app:layout_constraintVertical_bias="0.507">
 
         <Button
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="41dp"
-            android:text="Add Book" />
+            android:layout_height="62dp"
+            android:text="Add Borrower"
+            app:backgroundTint="#3F51B5" />
 
         <Button
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="54dp"
-            android:text="Remove Book" />
+            android:color="@color/purple_200"
+            android:text="Remove Borrower"
+            app:backgroundTint="#07FF8B" />
 
         <Button
             android:id="@+id/textView5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Update Book" />
+            android:layout_height="62dp"
+            android:text="Update Borrower Info"
+            app:backgroundTint="#673AB7" />
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

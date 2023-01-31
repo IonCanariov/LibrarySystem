@@ -8,10 +8,18 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/drawable/ic_baseline_menu_open_24.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_add_borrower.xml" value="0.2" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_issue_item.xml" value="0.253125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_lend_book.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_lend_magazine.xml" value="0.253125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_manage_book.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_manage_borrower.xml" value="0.253125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_manage_magazine.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_manage_user.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_order_book.xml" value="0.240625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_remove_book.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_remove_borrower.xml" value="0.253125" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/activity_search_book.xml" value="0.2" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/home_activity.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/LibrarySystem/app/src/main/res/layout/main_activity.xml" value="0.20652173913043478" />

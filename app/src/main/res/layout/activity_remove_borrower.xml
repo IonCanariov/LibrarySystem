@@ -6,27 +6,64 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewDeleteBorrower"
         android:layout_width="183dp"
         android:layout_height="39dp"
-        android:layout_marginTop="48dp"
-        android:textStyle="bold"
-        android:text="Add Book"
+        android:layout_marginTop="36dp"
+        android:text="Delete Borrower"
         android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="394dp"
+        android:layout_height="53dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDeleteBorrower"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="504dp"
+            android:minHeight="48dp"
+            android:text="Enter Borrower Id" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Search"
+            app:backgroundTint="#9C27B0"
+            tools:layout_editor_absoluteX="297dp"
+            tools:layout_editor_absoluteY="134dp" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="406dp"
 
         android:layout_height="wrap_content"
+        android:layout_marginBottom="292dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.168">
 
 
         <EditText
@@ -34,18 +71,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="book title"
+            android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="Title" />
+            android:text="Name" />
 
         <EditText
             android:id="@+id/editTextAuthorName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
+            android:inputType="email"
             android:minHeight="48dp"
-            android:text="Author name" />
+            android:text="Email" />
 
         <EditText
             android:id="@+id/editTextISBN"
@@ -54,29 +91,21 @@
             android:ems="10"
             android:inputType="number"
             android:minHeight="48dp"
-            android:text="ISBN" />
+            android:text="Phone" />
 
-        <EditText
-            android:id="@+id/editTextDate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="date"
-            android:minHeight="48dp"
-            android:text="Date"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/saveBook"
+        android:id="@+id/saveUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save"
+        android:layout_marginTop="48dp"
+        android:text="Delete"
+        app:backgroundTint="#00BCD4"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
